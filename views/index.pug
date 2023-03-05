@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  script.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').then(
+                  navigator.serviceWorker.register('/sw.js').then((registration)=>{
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+
+                  }));
+        })
+      }
+
+
