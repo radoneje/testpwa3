@@ -3,6 +3,7 @@
  "description": "Приложение Форума \"Тестирование приложения PWA\"",
  "start_url": "/",
  "lang": "en-GB",
+ "background_color": "#FFFFFF",
  "theme_color": "#64B8E8",
  "display": "standalone",
  "icons": [
